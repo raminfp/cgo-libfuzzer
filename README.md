@@ -182,20 +182,6 @@ When a crash is found:
 - Stack trace is generated
 - Location in code is identified
 
-
-Testing a simple CGo binding:
-
-```go
-/*
-#include "target.h"
-*/
-import "C"
-
-func main() {
-    // Your CGo code here
-}
-```
-
 ## Tips
 
 - Start with small test cases
