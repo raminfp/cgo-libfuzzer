@@ -1,5 +1,3 @@
-// fuzzing C code with libFuzzer through CGo.
-
 package main
 
 /*
