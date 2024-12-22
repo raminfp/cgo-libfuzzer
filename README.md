@@ -97,21 +97,6 @@ func LLVMFuzzerTestOneInput(data []byte) int {
 }
 ```
 
-## Project Structure
-
-```
-├── build.sh        # Build script
-├── corpus/         # Test cases
-├── fuzz.c         # C fuzzing implementation
-├── fuzz.go        # Go fuzzing implementation
-├── fuzzer/        # Core fuzzing logic
-├── libfuzz.a      # Fuzzing library
-├── libfuzz.h      # C header file
-├── target.c       # Target C code
-└── target.h       # Target header
-```
-
-
 ## Quick Start
 
 Build the project:
@@ -122,20 +107,6 @@ Build the project:
 Run the fuzzer:
 ```bash
 ./run_fuzzer.sh
-```
-
-## Project Structure
-
-```
-├── build.sh        # Build script
-├── corpus/         # Test cases
-├── fuzz.c         # C fuzzing implementation
-├── fuzz.go        # Go fuzzing implementation
-├── fuzzer/        # Core fuzzing logic
-├── libfuzz.a      # Fuzzing library
-├── libfuzz.h      # C header file
-├── target.c       # Target C code
-└── target.h       # Target header
 ```
 
 ## Requirements
