@@ -1,4 +1,4 @@
-# CGo Fuzzing Tool
+# CGo Fuzzing with libFuzzer
 
 A lightweight fuzzing tool designed to find bugs in CGo bindings. This tool helps identify memory safety issues, type conversion errors, and other potential problems when interfacing between Go and C code.
 
